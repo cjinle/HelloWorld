@@ -156,5 +156,10 @@ namespace HelloWorld
             Console.WriteLine("---------- async post -------------");
             Console.WriteLine(result);
         }
+
+        public static void Stream()
+        {
+            
+        }
     }
 }
