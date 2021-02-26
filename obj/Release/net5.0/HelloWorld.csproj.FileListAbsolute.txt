@@ -1,0 +1,16 @@
+D:\client\dotnet\HelloWorld\bin\Release\net5.0\HelloWorld.exe
+D:\client\dotnet\HelloWorld\bin\Release\net5.0\HelloWorld.deps.json
+D:\client\dotnet\HelloWorld\bin\Release\net5.0\HelloWorld.runtimeconfig.json
+D:\client\dotnet\HelloWorld\bin\Release\net5.0\HelloWorld.runtimeconfig.dev.json
+D:\client\dotnet\HelloWorld\bin\Release\net5.0\HelloWorld.dll
+D:\client\dotnet\HelloWorld\bin\Release\net5.0\ref\HelloWorld.dll
+D:\client\dotnet\HelloWorld\bin\Release\net5.0\HelloWorld.pdb
+D:\client\dotnet\HelloWorld\obj\Release\net5.0\HelloWorld.csprojAssemblyReference.cache
+D:\client\dotnet\HelloWorld\obj\Release\net5.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+D:\client\dotnet\HelloWorld\obj\Release\net5.0\HelloWorld.AssemblyInfoInputs.cache
+D:\client\dotnet\HelloWorld\obj\Release\net5.0\HelloWorld.AssemblyInfo.cs
+D:\client\dotnet\HelloWorld\obj\Release\net5.0\HelloWorld.csproj.CoreCompileInputs.cache
+D:\client\dotnet\HelloWorld\obj\Release\net5.0\HelloWorld.dll
+D:\client\dotnet\HelloWorld\obj\Release\net5.0\ref\HelloWorld.dll
+D:\client\dotnet\HelloWorld\obj\Release\net5.0\HelloWorld.pdb
+D:\client\dotnet\HelloWorld\obj\Release\net5.0\HelloWorld.genruntimeconfig.cache
