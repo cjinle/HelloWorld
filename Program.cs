@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Net.Http;
+using System.Net.Sockets;
 using System.Text;
 using Newtonsoft.Json;
 
@@ -25,6 +26,8 @@ namespace HelloWorld
             Network.GetAsync("http://192.168.56.101:8080/api");
             Network.Get("http://192.168.56.101:8080/api");
             Network.Post("http://192.168.56.101:8080/api");
+
+            Network.Stream();
 
             Console.ReadKey();
             
@@ -159,7 +162,27 @@ namespace HelloWorld
 
         public static void Stream()
         {
-            
+            var client = new TcpClient("192.168.56.101", 1234);
+            try 
+            {
+                var ns = client.GetStream();
+                var bs = Encoding.ASCII.GetBytes("500");
+        
+                int num = 0;
+                while (num < 10)
+                {
+                    num++;
+                    ns.Write(bs, 0, bs.Length);
+                    var recv = new byte[1024];
+                    int len = ns.Read(recv, 0, recv.Length);
+                    Console.WriteLine(Encoding.ASCII.GetString(recv, 0, len));
+                }
+                client.Close();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.ToString());
+            }
         }
     }
 }
